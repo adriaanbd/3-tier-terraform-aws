@@ -7,7 +7,3 @@ output "db_config" {
     port     = aws_db_instance.database.port
   }
 }
-
-output "db_password" {
-  value = module.database.db_config.password
-}
